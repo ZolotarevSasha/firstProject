@@ -1,0 +1,61 @@
+.review {
+    background-image: url(../assets/images/tourist-say-background.jpg);
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .review-title {
+        margin-top: 128px;
+        font-family: 'Aleo', serif;
+        font-size: 36px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #FFFFFF;
+        
+    }
+
+    .review-card {
+        width: 1113px;
+        margin-top: 95px;
+        display: flex;
+        flex-direction: row;
+        
+        .review-card-image {
+            background-image: url(../assets/images/tourist-say-preview.jpg);
+            flex-grow: 0.45;
+        }
+
+        .review-card-description {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 0.55;
+            width: 0;
+            padding: 49px 25px 39px 62px;
+            box-sizing: border-box;
+            background-color: #333333;
+            
+            .title {
+                margin-bottom: 8px;
+                font-size: 20px;
+                line-height: 26px;
+                font-family: 'Josefin Sans', sans-serif;
+                color: #FEFEFE;
+            }
+
+            .description {
+                font-size: 16px;
+                line-height: 26px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+            }
+            .quote-left {
+                background: url(../assets/images/quote-left-solid.svg);
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+            }
+
+        }
+    }
+}

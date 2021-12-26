@@ -1,0 +1,69 @@
+
+.card {
+    font-family: 'Josefin Sans', sans-serif;
+	width: 540px;
+	padding: 50px 30px;
+	background-color: #232323;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+
+	.card-country {
+		margin-bottom: 23px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #E8E8E8;
+	}
+
+	.card-hotel {
+		text-transform: uppercase;
+		margin-bottom: 13px;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #FFFFFF;
+	}
+
+	.card-description {
+		margin-bottom: 46px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #E8E8E8;
+	}
+
+}
+
+.card-button {
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.spain-first-preview {
+    background-image: url(../assets/images/spain-first-preview-background.jpg);
+    height: 700px;
+
+    .card {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 330px;
+    }
+}
+
+.spain-second-preview {
+    background-image: url(../assets/images/spain-second-preview-background.jpg);
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    .card {
+        position: absolute;
+        margin-top: 230px;
+        margin-right: 330px;
+    }
+}

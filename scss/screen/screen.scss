@@ -1,0 +1,101 @@
+.main-screen {
+    background-image: url(../assets/images/main-background.jpg);
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+
+    .main-screen-header {
+        margin-block-end: 48px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #FFFFFF;
+        letter-spacing: 6.82px;
+
+    }
+
+    .main-screen-search {
+        width: 653px;
+        background-color: white;
+        margin-block-end: 107px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: baseline;
+        padding: 2px;
+
+        input {
+            text-align: center;
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #999999;
+            letter-spacing: 2.8px;
+        }
+
+        .search-ico {
+            width: 22px;
+            height: 24px;
+        }
+    }
+
+    .main-screen-scroller {
+        margin-block-end: 153px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .scroll-down-text {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 400;
+            color: #FFFFFF;
+            letter-spacing: 2.8px;
+        }
+
+        .scroll-down-ico {
+            width: 17px;
+            height: 11px;
+        }
+    }
+
+    .main-screen-navigation {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 83px;
+        width: 100%;
+        background-color: #5474FD;
+        padding: 0 300px;
+
+        h2 {
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            display: inline-flex;
+            align-items: center;
+            gap: 30px;
+            list-style-type: none;
+            margin: 0;
+            
+            li {
+                text-transform: uppercase;
+                font-size: 14px;
+                line-height: 26px;
+                font-family: 'Aleo', serif;
+            }
+        }
+    }
+}
