@@ -1,0 +1,35 @@
+.search-field {
+    width: 653px;
+    background-color: white;
+    margin-block-end: 107px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 2px;
+
+    &-input {
+        font-family: var(--josefin-font);
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 2.8px;
+        flex-grow: 1;
+        border: none;
+        text-align: center;
+        outline: none;
+        color: var(--input-text-color);
+
+        &::placeholder {
+            color: var(--input-placeholder-color);
+        }
+    }
+
+    &-button {
+
+        .button-ico {
+            width: 22px;
+            height: 24px;
+        }
+    }
+
+}

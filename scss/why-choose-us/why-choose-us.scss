@@ -3,12 +3,12 @@
     height: 685px;
     display: flex;
     flex-direction: row;
+}
 
-    .why-choose-us-column {
+    .column {
         flex-grow: 1;
         box-sizing: border-box;
         width: 0;
-
         display: flex;
         flex-direction: column;
 
@@ -24,48 +24,49 @@
         h2 {
             margin-top: 212px;
             margin-bottom: 50px;
-            font-family: 'Aleo', serif;
+            font-family: var(--aleo-font);
         }
 
         span:first-of-type {
             margin-bottom: 20px;
         }
+        
         .choose-text {
-            font-family: 'Josefin Sans', sans-serif;
+            font-family: var(--josefin-font);
             font-size: 16px;
             line-height: 26px;
             letter-spacing: 1.6px;
             font-weight: 400;
-            color: #E8E8E8;
+            color: var(--main-color-3);
             font-style: normal;
         }
 
         button {
             margin-top: 45px;
-            font-family: 'Aleo', serif;
+            font-family: var(--aleo-font);
             font-size: 16px;
             line-height: 26px;
             font-weight: 400;
             font-style: normal;
             letter-spacing: 1.2px;
             text-transform: uppercase;
-            color: #FFFFFF;
-        }
-
-        .preview {
-            width: 350px;
-            height: 220px;
-
-            &.first {
-                margin-top: 183px;
-                background-image: url(../assets/images/why-choose-us-first-preview.jpg);
-            }
-
-            &.second {
-                margin-top: 10px;
-                margin-left: 90px;
-                background-image: url(../assets/images/why-choose-us-second-preview.jpg);
-            }
+            color: var(--main-color-1);
         }
     }
-}
+
+        
+    .preview {
+        width: 350px;
+        height: 220px;
+
+        &.first {
+            margin-top: 183px;
+            background-image: url(../assets/images/why-choose-us-first-preview.jpg);
+        }
+
+        &.second {
+            margin-top: 10px;
+            margin-left: 90px;
+            background-image: url(../assets/images/why-choose-us-second-preview.jpg);
+        }
+    }

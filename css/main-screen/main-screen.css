@@ -1,0 +1,96 @@
+.main-screen {
+  background-image: url(../assets/images/main-background.jpg);
+  height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-screen-header {
+  -webkit-margin-after: 48px;
+          margin-block-end: 48px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 6.82px;
+}
+.main-screen-scroller {
+  -webkit-margin-after: 153px;
+          margin-block-end: 153px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-screen-scroller .scroll-down-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 2.8px;
+}
+.main-screen-scroller .scroll-down-ico {
+  width: 17px;
+  height: 11px;
+}
+.main-screen-scroller .scroll-down-ico:hover {
+  cursor: pointer;
+}
+.main-screen-navigation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 83px;
+  width: 100%;
+  background-color: #5474FD;
+  padding: 0 300px;
+}
+.main-screen-navigation h2 {
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+.main-screen-navigation ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+}
+.main-screen-navigation ul li {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Aleo", serif;
+}
+.main-screen-navigation :hover li {
+  cursor: pointer;
+}

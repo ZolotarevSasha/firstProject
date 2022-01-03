@@ -1,7 +1,25 @@
+:root {
+	--input-placeholder-color: #999999;
+	--input-text-color: #000000;
+	--main-color-1: #FFFFFF;
+	--main-color-2: #FEFEFE;
+	--main-color-3: #E8E8E8;
+	--accent-color: #5474FD;
+	--review-background-color: #333333;
+	--button-background-color: #496BFE;
+	--footer-background-color: #232323;
+
+	--default-font: sans-serif;
+	--aleo-font: 'Aleo', var(--default-font);
+	--josefin-font: 'Josefin Sans', var(--default-font);
+}
+
+
+
 * {
 	box-sizing: border-box;
 	font-family: sans-serif;
-	color: white;
+	color: var(--main-color-1);
 }
 
 body {
@@ -13,7 +31,7 @@ body {
 }
 
 button {
-	background-color: #496BFE;
+	background-color: var(--button-background-color);
 	height: 60px;
 	border: none;
 	outline: none;
@@ -34,12 +52,28 @@ button {
 	padding: 15px;
 	width: 1800px;
 	height: 100%;
-	border: 1px solid gray;
-
 }
 
-@import "screen/screen.scss";
-@import "choose/choose.scss";
+@media screen and (min-width:320px) {
+	.img-content {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.img-content {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:1120px) {
+	.img-content {
+		width: 100%;
+	}
+}
+
+@import "main-screen";
+@import "why-choose-us/why-choose-us.scss";
 @import "flow/flow.scss";
 @import "spain/spain.scss";
 @import "review/review.scss";
